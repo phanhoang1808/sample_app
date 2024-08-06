@@ -1,0 +1,6 @@
+<tr>
+  <td><%= product.name %></td>
+  <td><%= link_to t("products.product.show"), product %></td>
+  <td><%= link_to t("products.product.edit"), edit_product_path(product) %></td>
+  <td><%= link_to t("products.product.destroy"), product, method: :delete, data: { confirm: t("products.product.confirm") } %></td>
+</tr>

@@ -1,0 +1,191 @@
+vi:
+  english: "Tiếng Anh"
+  vietnamese: "Tiếng Việt"
+  home: "Trang chủ"
+  help: "Trợ giúp"
+  user: "Người dùng"
+  account: "Tài khoản"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  log_out: "Đăng xuất"
+  log_in: "Đăng nhập"
+  submit: "Xác nhận"
+
+  demo_partials:
+    zone: "Khu vực"
+    date: "Ngày"
+    edit:
+      title: "Chỉnh sửa khu vực"
+    new:
+      title: "Thêm khu vực"
+
+  layouts:
+    application:
+      base_title: "Ứng dụng mẫu hướng dẫn Rails"
+
+  static_pages:
+    help:
+      title: "Trợ giúp"
+      rails_tutorial_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      rails_tutorial_help_link: "Trang trợ giúp Hướng dẫn Rails"
+      sample_app_help: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      ruby_on_rails_tutorial_book: "sách Hướng dẫn Ruby on Rails"
+    home:
+      title: "Ứng dụng mẫu"
+      rails_tutorial_home: "Đây là trang chủ của"
+      rails_tutorial_link: "Hướng dẫn Ruby on Rails"
+      sample_app: "ứng dụng mẫu"
+      post_title: "Nguồn cấp dữ liệu bài đăng"
+
+  products:
+    form:
+      errors_notification: "(lỗi) cấm lưu sản phẩm này"
+      name: "Tên sản phẩm"
+    product:
+      show: "Xem"
+      edit: "Sửa"
+      destroy: "Xóa"
+      confirm: "Bạn chắc chắn không"
+    showProduct:
+      name: "Tên sản phẩm"
+    edit:
+      title: "Cập nhật sản phẩm"
+      show: "Xem sản phẩm này"
+      back: "Quay lại danh sách sản phẩm"
+    index:
+      title: "Danh sách sản phẩm"
+      cl_name: "Tên sản phẩm"
+      no_product: "Không có sản phẩm nào"
+      new_product: "Thêm sản phẩm"
+    new:
+      title: "Thêm sản phẩm"
+      back: "Quay lại danh sách sản phẩm"
+    show:
+      edit: "Cập nhật sản phẩm này"
+      back: "Quay lại danh sách sản phẩm"
+      destroy: "Xóa sản phẩm này"
+
+  date:
+    formats:
+      default: "%d/%m/%Y"
+
+  demo_partials_c:
+    new:
+      zone: "Khu hành động mới"
+    edit:
+      zone: "Khu hành động chỉnh sửa"
+
+  products_c:
+    notice:
+      create: "Sản phẩm đã được tạo thành công."
+      update: "Sản phẩm đã được cập nhật thành công."
+      destroy: "Sản phẩm đã được xóa thành công."
+
+  controller:
+    user_c:
+      check_email_active: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+      user_not_found: "Không tìm thấy người dùng"
+      u_create_success: "Người dùng đã tạo thành công"
+      profile_updated: "Cập nhật thông tin thành công"
+      destroy_success: "Xóa người dùng thành công"
+      destroy_fail: "Xóa người dùng thất bại!"
+      not_logged_in: "Hãy đăng nhập."
+      can_not_edit: "Bạn không thể chỉnh sửa tài khoản này."
+    sessions_c:
+      invalid: "Email hoặc mật khẩu không đúng"
+      acc_not_active: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để lấy liên kết kích hoạt."
+    account_activation_c:
+      acc_active: "Tài khoản đã được kích hoạt!"
+      acc_invalid: "Liên kết kích hoạt không hợp lệ"
+    pw_reset_c:
+      sent_mail_success: "Email được gửi kèm hướng dẫn đặt lại mật khẩu"
+      sent_mail_fail: "Không tìm thấy địa chỉ email"
+      error_pw_empty: "(Mật khẩu) không thể để trống"
+      pw_reset_sc: "Đặt lại mật khẩu thành công"
+      user_not_found: "Không tìm thấy người dùng!"
+      user_inactive: "Người dùng chưa được kích hoạt!"
+      pw_re_expire: "Việc đặt lại mật khẩu đã hết hạn."
+    microp_c:
+      create_success: "Đã tạo bài đăng!"
+      delete_success: "Bài đăng đã được xóa"
+      delete_fail: "Xóa bài đăng thất bại"
+      wrong_user: "Bài đăng không hợp lệ"
+
+  title:
+    static_pages:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+    users:
+      new: "Đăng ký"
+      edit: "Cập nhật người dùng"
+      index: "Tất cả người dùng"
+    password_resets:
+      new: "Quên mật khẩu"
+      edit: "Đặt lại mật khẩu"
+
+  views:
+    users:
+      new:
+        title: "Đăng ký"
+        name: "Họ và tên"
+        password: "Mật khẩu"
+        confirmation: "Xác nhận mật khẩu"
+        create_my_account: "Tạo tài khoản của tôi"
+      user:
+        delete: "Xóa"
+        sure?: "Bạn chắc chắn không?"
+      edit:
+        title: "Cập nhật thông tin cá nhân của bạn"
+        save_change: "Lưu thay đổi"
+        change_avt: "Đổi"
+      index:
+        title: "Tất cả người dùng"
+    sessions:
+      new:
+        password: "Mật khẩu"
+        forgot_pw: "(quên mật khẩu)"
+        new_user?: "Chưa có tài khoản?"
+        remember_me: "Hãy nhớ tôi trên máy tính này"
+        sign_up_now: "Đăng ký ngay!"
+    shared:
+      errors:
+        the_form_contains: "Biểu mẫu có"
+        error: "lỗi"
+      user_info:
+        view_profile: "xem hồ sơ của tôi"
+        micropost: "bài đăng"
+      microp_form:
+        writting: "Soạn bài đăng mới..."
+        post: "Đăng"
+    user_mailer:
+      title: "Ứng dụng mẫu"
+      welcome: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      active: "Kích hoạt"
+      pw_reset_title: "Đặt lại mật khẩu"
+      pw_re_sup: "Để đặt lại mật khẩu của bạn hãy nhấp vào liên kết bên dưới:"
+      reset_pw_link: "Đặt lại mật khẩu"
+      link_time_expire: "Liên kết này sẽ hết hạn sau hai giờ."
+      last_remind: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+    password_resets:
+      title: "Quên mật khẩu"
+      submit: "Xác nhận"
+      edit:
+        title: "Đặt lại mật khẩu"
+        password: "Mật khẩu"
+        confirmation: "Xác nhận mật khẩu"
+        update_pw: "Cập nhật mật khẩu"
+    microposts:
+      render_micro:
+        posted: "Đã đăng"
+        ago: "trước."
+        delete: "xóa"
+        u_sure: "Bạn chắc chắn không?"
+
+  mailer:
+    user_mailer:
+      account_activation: "Kích hoạt tài khoản"
+      pw_reset: "Đặt lại mật khẩu"
+
+  js:
+    img_up:
+      alert: "Kích thước tệp tối đa là 5MB. Vui lòng chọn tệp nhỏ hơn."

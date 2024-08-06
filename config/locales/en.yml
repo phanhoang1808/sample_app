@@ -1,0 +1,220 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t "hello"
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t("hello") %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   "true": "foo"
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+en:
+  home: "Home"
+  help: "Help"
+  user: "Users"
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
+  log_in: "Log in"
+  submit: "Submit"
+
+  demo_partials:
+    zone: "Zone"
+    date: "Date"
+    edit:
+      title: "Editing zone"
+    new:
+      title: "New zone"
+
+  layouts:
+    application:
+      base_title: "Ruby on Rails Tutorial Sample App"
+
+  static_pages:
+    help:
+      title: "Help"
+      rails_tutorial_help: "Get help on the Ruby on Rails Tutorial at the"
+      rails_tutorial_help_link: "Rails Tutorial help page"
+      sample_app_help: "To get help on this sample app, see the"
+      ruby_on_rails_tutorial_book: "Ruby on RailsTutorial book"
+    home:
+      title: "Sample App"
+      rails_tutorial_home: "This is the home page for the"
+      rails_tutorial_link: "Ruby on Rails Tutorial"
+      sample_app: "sample application"
+      post_title: "Micropost Feed"
+
+  products:
+    form:
+      errors_notification: "prohibited this product from being saved"
+      name: "Name"
+    product:
+      show: "Show"
+      edit: "Edit"
+      destroy: "Destroy"
+      confirm: "Are you sure"
+    showProduct:
+      name: "Name"
+    edit:
+      title: "Editing product"
+      show: "Show this product"
+      back: "Back to products"
+    index:
+      title: "Products"
+      cl_name: "Name"
+      no_product: "No Products"
+      new_product: "New product"
+    new:
+      title: "New product"
+      back: "Back to products"
+    show:
+      edit: "Edit this product"
+      back: "Back to products"
+      destroy: "Destroy this product"
+
+  date:
+    formats:
+      default: "%B %d, %Y"
+
+  demo_partials_c:
+    new:
+      zone: "Zone New action"
+    edit:
+      zone: "Zone Edit action"
+
+  products_c:
+    notice:
+      create: "Product was successfully created."
+      update: "Product was successfully updated."
+      destroy: "Product was successfully destroyed."
+
+  controller:
+    user_c:
+      check_email_active: "Please check your email to activate your account."
+      user_not_found: "User not found"
+      u_create_success: "User created successful"
+      profile_updated: "Profile updated"
+      destroy_success: "User deleted"
+      destroy_fail: "Delete fail!"
+      not_logged_in: "Please log in."
+      can_not_edit: "You cannot edit this account."
+    sessions_c:
+      invalid: "Email or password is incorrect"
+      acc_not_active: "Account not activated. Check your email for the activation link."
+    account_activation_c:
+      acc_active: "Account activated!"
+      acc_invalid: "Invalid activation link"
+    pw_reset_c:
+      sent_mail_success: "Email sent with password reset instructions"
+      sent_mail_fail: "Email address not found"
+      error_pw_empty: "can't be empty"
+      pw_reset_sc: "Reset password success"
+      user_not_found: "User not found!"
+      user_inactive: "User is in actived!"
+      pw_re_expire: "Password reset has expired."
+    microp_c:
+      create_success: "Micropost created!"
+      delete_success: "Micropost deleted"
+      delete_fail: "Deleted fail"
+      wrong_user: "Micropost invalid"
+
+  title:
+    static_pages:
+      home: "HOME"
+      help: "Help"
+    users:
+      new: "Signup"
+      edit: "Edit user"
+      index: "All users"
+    password_resets:
+      new: "Forgot password"
+      edit: "Reset password"
+
+  views:
+    users:
+      new:
+        title: "Sign up"
+        name: "Name"
+        password: "Password"
+        confirmation: "Confirmation"
+        create_my_account: "Create my account"
+      user:
+        delete: "Delete"
+        sure?: "You sure?"
+      edit:
+        title: "Update your profile"
+        save_change: "Save changes"
+        change_avt: "change"
+      index:
+        title: "All users"
+    sessions:
+      new:
+        password: "Password"
+        forgot_pw: "(forgot password)"
+        new_user?: "New User?"
+        remember_me: "Remember me on this computer"
+        sign_up_now: "Sign Up Now!"
+    shared:
+      errors:
+        the_form_contains: "The form contains"
+        error: "error"
+      user_info:
+        view_profile: "view my profile"
+        micropost: "micropost"
+      microp_form:
+        writting: "Compose new micropost..."
+        post: "Post"
+    user_mailer:
+      title: "Sample App"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active: "Activate"
+      pw_reset_title: "Password reset"
+      pw_re_sup: "To reset your password click the link below:"
+      reset_pw_link: "Reset password"
+      link_time_expire: "This link will expire in two hours."
+      last_remind: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+    password_resets:
+      title: "Forgot password"
+      submit: "Submit"
+      edit:
+        title: "Reset password"
+        password: "Password"
+        confirmation: "Confirmation"
+        update_pw: "Update password"
+    microposts:
+      render_micro:
+        posted: "Posted"
+        ago: "ago."
+        delete: "delete"
+        u_sure: "You sure?"
+
+  mailer:
+    user_mailer:
+      account_activation: "Account activation"
+      pw_reset: "Password reset"
+
+  js:
+    img_up:
+      alert: "Maximum file size is 5MB. Please choose a smaller file."

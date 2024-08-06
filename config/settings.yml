@@ -1,0 +1,24 @@
+user:
+  name_user:
+    max_length: 50
+  email:
+    max_length: 255
+    email_regex: \A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z
+  password:
+    min_length: 6
+pages:
+  page_10: 10
+size:
+  gravatar:
+    size_80: 80
+    size_50: 50
+  img:
+    mb_5: 5
+    size_500: 500
+port:
+  smtp_mailtrap: 587
+time_expire:
+  two_h: 2
+digit:
+  digit_140: 140
+  digit_50: 50

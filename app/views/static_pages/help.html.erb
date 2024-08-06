@@ -1,0 +1,11 @@
+<% provide :title, t("title.static_pages.help") %>
+
+<h1><%= t("static_pages.help.title") %></h1>
+<p>
+  <%= t("static_pages.help.rails_tutorial_help") %>
+  <a href="http://www.railstutorial.org/help"><%= t("static_pages.help.rails_tutorial_help_link") %> </a>
+  <%= t("static_pages.help.sample_app_help") %>
+  <%= link_to href:"http://www.railstutorial.org/bool" do %>
+    <em><%= t("static_pages.help.ruby_on_rails_tutorial_book") %></em>
+  <% end %>
+</p>

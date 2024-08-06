@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= t("products.index.title") %></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th><%= t("products.index.cl_name") %></th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <%= render(@list_abc) || t("products.index.no_product") %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to t("products.index.new_product"), new_product_path %>
